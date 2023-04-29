@@ -4,59 +4,77 @@
 <html lang="it">
 <meta charset="UTF-8">
 <title>document</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .wi{
+         background-color: yellowgreen; 
+         position: relative;
+         height: 100px;
+         padding-top: 40px;
+    }
+    .body{
+        background: radial-gradient(#727283,#044618);
+        height: 100vh; 
+        weight: 100%;
+        color: #ffffff;
+    
+       
+    }
+  .yy{
+    background-color: aqua;
+    width: 100px;
+    padding-left:35px ;
+    border-radius: 30px;
+
+    position: relative;
+    left: 47%;
+    
+    top: 60px;
+
+  }
+  .email{
+    border: 0;
+    background-color: rgb(183, 228, 213);
+    height: 30px;
+    width: 200px;
+    padding-left: 40px;
+    position: relative;
+    left: 44%;
+    top: 70px;
+    border-radius: 30px;
+  }
+  .pass{
+    border: 0;
+    background-color: rgb(183, 228, 213);
+    height: 30px;
+    width: 200px;
+    padding-left: 40px;
+    position: relative;
+    left: 29.5%;
+    top: 130px;
+    border-radius: 30px;
+
+  }
+</style>
+
 </head>
 <body>
 <center>
-<h1>Sito online wisam</h1>
+<h1 class="wi">Sito online wisam</h1>
 </center>
-
 <hr/>
-<p>hello this is my first site web online </p>
-<img weight=1000px alt"photos" src="https://picsum.photos/200">
-</br>
-<a href="https://www.youtube.com/?gl=IT&hl=it">enter to youtube</a>
-</br>
-<a href="./altre_pagine/pagina2.html">seconda pagina</a>
-</br>
-<a href="https://login.yahoo.com/?.src=ym&lang=it-IT&done=https%3A%2F%2Fit.mail.yahoo.com%2F%3Fguce_referrer%3DaHR0cHM6Ly93d3cuYmluZy5jb20v%26guce_referrer_sig%3DAQAAAMDKXxVc3v0aI78-DKJ1X3auN8XQb5JRcRJSTacIqqcRYvlItO6sv6FTeExY_dvXGhmCpcELhq54w7xNX3G1s9xEUq3buRWNc8VAvueLzOTIAhQItTTesGfuLcz1TEjsM1HvN23SLTkpZDm3FgbprgvjcYyZECzt7ESZs3oUaMJE"><img weight=30px height=30px alt="hakimi" src="1.jfif"></a>
-</br>
-<table border=2>
-	<tr>
-	<th colspan="2">table header</th>
-	</tr>
-	<tr>
-		<td>the table body</td>
-		<td>with two columns </td>
-	</tr>
-</table>
-<table border="2">
-	<tr>
-		<td> </td>
-		<td> 
-			<tr >
-				<td>average</td>
-			</tr>
-			<tr>
-				<td>height</td>
-			    <td>weight</td>
-		  </tr>
-		
-		</td>
-		<tr><td>red eyes</td></tr>
-		
-	</tr>
-	<tr>
-		<td>males</td>
-		<td>19</td>
-		<td>0.003</td>
-		<td>40%</td>
-	</tr>
-	<tr>
-		<td>females</td>
-		<td>19</td>
-		<td>0.003</td>
-		<td>40%</td>
-	</tr>
-</table>
+<div class="body">
+
+<center><h2>hello this is my first site web online </h2></center>
+<h2 class="yy">
+    login
+</h2>
+<input type="email" placeholder="Email" class="email">
+<input type="password" placeholder="Password" class="pass">
+</div>
+
 </body>
 </html>
